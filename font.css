@@ -1,0 +1,482 @@
+@media screen and (max-width:990px){
+      .how .col-sm-2{
+            width: fit-content;
+            
+        }
+        body{
+              overflow-x: hidden;
+        }
+      .any{
+            margin: 0px auto;
+            width: 50%;
+            height: 90%;
+            border: 2px solid grey;
+            margin-top: 30px;
+            border-radius: 9px;
+            
+        }
+    .jk{
+        margin-left: -20px;
+    }
+        .any span{
+            text-align:right;
+            font-weight: bold;
+        }
+        .any img{
+            margin: 0px auto;
+            width: 30%;
+            height: 20%;
+            margin-left: 80px;
+        }
+        .any p{
+        text-align: center;
+        font-weight: bold;
+        }
+        .sign{
+            display: block;
+            margin: 0px auto;
+            border: 2px solid blue;
+            width: 70%;
+        }
+      #pro{
+            float: right;
+            margin-top:-50px;
+            background: transparent;
+            margin-right:100px;
+            border:none;
+            color: black;
+            padding:10px;
+            width:80px;
+            font-size:15px;
+      }
+      #pro:hover{
+            background: wheat;
+            color: black;
+           
+            border-radius: 10px;
+      }
+        .thing span{
+            font-size: 12px;
+        }
+        .thing{
+            border: none;
+            border-top: 2px solid rgb(196,193,193);
+            
+        } 
+        .another{
+        box-shadow: 0px 0px 0px 2px grey;
+        border: 1px solid rgb(179,172,172);;
+        margin: 0px auto;
+        width: 50%;
+        margin-top: 50px;
+        height: 90%;
+        border-radius: 9px;
+        }
+        .thing i{
+        color: green;
+        }
+        
+      .cate{
+            display: none;
+      }
+      .cry{
+            font-size:15px;
+            color: black;
+            margin-top:-40px;
+            padding: 10px;
+            display: block;
+            float: right;
+      }
+      #pro{
+            float: right;
+            margin-top:-50px;
+            background: transparent;
+            margin-right:90px;
+            border:none;
+            color: black;
+            padding:10px;
+            width:80px;
+            font-size:15px;
+      }
+      #pro:hover{
+            background: wheat;
+            color: black;
+           
+            border-radius: 10px;
+      } 
+      #sear{
+            float: right;
+            margin-right:180px ;
+            margin-top: -30px;
+            border: none;
+            background:transparent;
+            font-size: 23px;
+      }
+      #sear:hover{
+            background:gray;
+               
+      }
+      #up{
+            margin-top:-50px;
+            border: 2px solid blue;
+            border-radius: 10px;
+            background: blue;
+            color: white;
+            font-size:13px;
+            padding:9px;
+            width: 70px;
+            margin-right:10px;
+           
+      }
+      
+      #ma img{
+          margin-top: 10px;
+          width: 200px;
+          
+      }
+      
+      #sic{
+            
+            display: none;
+      }
+      #si{
+            
+            display: none;
+      }
+      #team{
+            display: none;
+           
+      }
+      .buttons {
+            margin-right: 12%;
+            margin-top: -3%;
+      }
+      .code{
+            position:fixed;
+            background:white;
+            z-index:10;
+            width: 100%;
+            margin-top: 0px;
+      }
+      #ma img{
+          height: 70px;
+          width: 35%;
+      }
+      .med{
+            margin-top: 30px;
+      }
+      .conde{
+            display: none;
+      }
+      .tube{
+            padding: 10px;
+             width: 200px;
+               margin: 0px auto;
+                margin-top: -320px;
+      margin-left: 300px
+      
+            }
+            .at{
+                padding: 10px
+            }
+
+}
+      
+@media screen and (min-width:768px){
+      #ma img{
+            width:150px;
+            height:70px;
+            margin-top: -10px
+      }
+      .cry{
+            height: 50px;
+            display: none;
+      }
+.nav li a{
+      margin-left:40px;
+      color: black;
+}
+.how img{
+      width: 79%;
+  }
+  
+  .how i{
+      color: grey;
+      font-size: 40px;
+      margin-left: 30px;
+  }
+.bad{
+      display: none;
+}
+.nav li a{
+      color: black;
+
+}
+.nav li a:hover{
+      color: blue;
+}
+.nav{
+      margin-left:170px;
+      font-size:16px;
+        margin-top: -40px;
+}
+body{
+      overflow-x: hidden;
+}
+.code{
+      position:fixed;
+      background:white;
+      z-index:10;
+      width: 100%;
+      margin-top: 0px;
+}
+
+.nap a{
+      text-decoration:none;
+}
+
+#up{
+      margin-top:-50px;
+      border: 2px solid blue;
+      border-radius: 10px;
+      background: blue;
+      color: white;
+      font-size:13px;
+      padding:9px;
+      width: 90px;
+      margin-right:10px;
+     
+}
+#sear{
+      float: right;
+      margin-right:190px ;
+      margin-top: -30px;
+      border: none;
+      background:transparent;
+      font-size: 23px;
+}
+#sear:hover{
+      background:#F1F1F3;
+    
+}
+#pro{
+      float: right;
+      margin-top:-50px;
+      background: transparent;
+      margin-right:100px;
+      border:none;
+      color: black;
+      padding:10px;
+      width:80px;
+      font-size:15px;
+}
+#pro:hover{
+      background: wheat;
+      color: black;
+     
+      border-radius: 10px;
+}
+.row p{
+      font-size:20px;
+      color: black;
+}
+#sic{
+      border: 1px solid rgb(202,194,194);
+      width:240px;
+     
+}
+#si{
+      border: 1px solid rgb(221,220,220);
+      width: 240px;
+}
+#team{
+      border: 1px solid rgb(202,200,200);
+      width: 240px;
+      
+}
+#able ul li{
+      color: black;
+      list-style-type: none;
+      font-size:20px;
+     
+}
+#able{
+      margin-left: 50px;
+    border:none;
+    }
+    .container-fluid{
+          display: none;
+    }
+}
+@media screen and (max-width:768px) {
+      #tog .col-sm-4{
+            width: 140px;
+            margin-left: 20px;
+            border: 2px solid black;
+            padding: 10px;
+      }
+      #tog .col-sm-4 img{
+          width: 50%;
+      }
+      #to .col-sm-4{
+          width: 140px;
+          margin-left: 20px;
+          padding: 20px;
+          border: 2px solid black;
+      }
+      #to .col-sm-4 img{
+          width: 50%;
+      }
+      #guy .col-sm-4{
+            width: 140px;
+            margin-left: 20px;
+            padding: 20px;
+            border: 2px solid black;
+      }
+      #guy .col-sm-4 img{
+            width:100%;
+      }
+      #any .col-sm-4{
+            width: 140px;
+            margin-left: 20px;
+            padding: 20px;
+            border: 2px solid black;
+      }
+      #any .col-sm-4 img{
+            width:100%;
+      }
+       
+      .bad{
+            display: block;
+      }
+    .plan{
+    display: none;
+    }
+    #able ul li{
+      color: black;
+      list-style-type: none;
+      font-size:15px;
+      }
+      .samething{
+      border: 1.5px solid black;
+      width: 50%;
+      height: 110%;
+      margin: 0px auto;
+      border-radius: 9px;
+      box-shadow: 0px 0px 0px 0px;
+      }
+      .added{
+      border: 1px solid grey;
+      border-radius: 10px 80px 120px 450px;
+      background: rgb(21, 190, 241);
+      width: 15%;
+      margin-left: 159px;
+      padding: 20px;
+      position: absolute;
+      }
+      .daily i{
+      color:green;
+      }
+      .daily span{
+      font-size: 14px
+      }
+      .bton{
+      border: 2px solid blue;
+      width: 70%;
+      margin-bottom: 10px;
+      display: block;
+      margin: 0px auto;
+      }
+      .bton:hover{
+      background: rgb(215,212,212);
+      }
+      .gonna{
+      border: none;
+      border-bottom: 1px solid grey;
+      width: 100%;
+      padding: 10px;
+      }
+      .any{
+      margin: 0px auto;
+      width: 50%;
+      height: 90%;
+      border: 2px solid grey;
+      margin-top: 30px;
+      border-radius: 9px;     
+      }
+      .jk{
+      margin-left: -20px;
+      }
+      .any span{
+      text-align:right;
+      font-weight: bold;
+      }
+      .any img{
+      margin: 0px auto;
+      width: 30%;
+      height: 20%;
+      margin-left: 80px;
+      }
+      .any p{
+      text-align: center;
+      font-weight: bold;
+      }
+      .sign{
+      display: block;
+      margin: 0px auto;
+      border: 2px solid blue;
+      width: 70%;
+      }
+      .pro{
+      background: blue;
+      color: white;
+      display: block;
+      margin: 0px auto;
+      padding: 5px;
+      border: 2px solid white;
+      }
+      .pro:hover{
+      background: rgb(37,37,226);
+      color: white;
+      }
+      .thing span{
+      font-size: 12px;
+      }
+      .thing{
+      border: none;
+      border-top: 2px solid rgb(196,193,193);
+      
+      } 
+      .code{
+            z-index: 100;
+      }
+      .another{
+      box-shadow: 0px 0px 0px 2px grey;
+      border: 1px solid rgb(179,172,172);;
+      margin: 0px auto;
+      width: 50%;
+      margin-top: 50px;
+      height: 90%;
+      border-radius: 9px;
+      }
+      .thing i{
+      color: green;
+      }
+      .how{
+            width: 100%;
+      }
+      .how img{
+            width: 60%; 
+            padding:20px;
+            margin-left: 10px;
+      }
+      .how .is{
+      margin-left: 100px;
+      }
+      .how i{
+      margin-left: 70px;
+      font-size: 30px;
+      color: grey;
+      margin-top: -40px;      
+    }
+}

@@ -1,0 +1,444 @@
+/* @media screen and (min-width:768px){
+      .did p{
+            background: #02122C;
+            color: white;
+            font-size: 20px;
+        }
+      #care{
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+      #flig{
+            border: 2px solid rgb(30, 142, 207);
+            background: rgb(30, 142, 207);
+            color: white;
+            padding:8px;
+            font-size: 14px;
+            border-radius: 5px;
+            margin-top:-30px;
+            width: 10%;
+      }
+      .did p{
+            padding: 20px;
+            width: 100%;
+            }
+      #hire{
+            border: 2px solid rgb(30, 142, 207);
+            background: rgb(30, 142, 207);
+            color: white;
+            padding:10px;
+            font-size: 15px;
+            border-radius:5px;
+      }
+    .find img{
+        width: 100%;
+    }
+    .do img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .lp img{
+        width: 60%;
+    }
+      #hote{
+            border: 2px solid rgb(30, 142, 207);
+            background: rgb(30, 142, 207);;
+            color: white;
+            padding:10px;
+            font-size: 15px;
+            border-radius: 5px;
+      }
+      #hel{
+            float: right;
+            margin-top: -80px;
+            margin-right:30px;
+      }
+      #hel a{
+            color: blue;
+            font-size: 15px;
+      }
+      #uk{
+            border-radius: 5px;
+            border: 2px solid rgb(109, 106, 106);
+            background: white;
+            color:black;
+            font-size: 20px;
+      }
+      #uk:hover{
+            border: 2px solid blue;
+      }
+      .most{
+          border: 2px solid grey;
+          border-radius: 10px;
+      }
+      #log{
+            border: 2px solid black;
+            border-radius: 5px;
+            color: blue;
+            background:transparent;
+            font-size: 20px;
+            transition: all 200ms ease-in 0s;
+      
+      }
+      #log:hover{
+            border: 2px solid blue;
+      }
+      #set{
+            background:#02122C ;
+            margin: 30px 0px 0px -10px;
+            color: white;
+            padding: 20px;
+      }
+      #place{
+            width: 50%;
+            height: 50px;
+            font-size: 20px;
+            color: black;
+      }
+      label{
+            font-size: 20px;
+      }  
+      input[type="date"]{
+             font-size: 20px;
+             height: 50px;
+             margin-left: -6px;
+             color: black;
+      }
+      .then{
+            height: 50px;
+            color: black;
+            font-size: 20px;
+            width: 10px;
+          
+            margin-left: -5px;
+      }
+      .the{
+            width: 200px;
+            height: 50px;
+            color: black;
+            font-size: 20px;
+      }
+      #retu{
+            font-size: 20px;
+            font-family: cursive;
+            margin-left: 20px;
+      }
+      .ser{
+            font-size: 20px;
+            width: 15%;
+            float: right;
+            margin-top:-35px;
+            color: white;
+            border: 2px solid #00887D;
+            border-radius: 5px;
+            background:#00887D ;
+      }
+      .row h2{
+            text-align: center;
+            font-size: 30px;
+            font-family: cursive;
+            color:black;
+            padding: 40px;;
+      }
+      .trush h3{
+            font-size:30px;
+            color:black;
+      }
+      .trush p{
+            font-size: 14px;
+      
+      }
+      .trush{
+            border: 3px solid rgb(206, 204, 204);
+            border-radius: 10px;
+            width: 100%;
+            height: 30%;
+            padding: 10px;
+      }
+      .row .did{
+            border: none;
+            border-radius: 20px;
+            margin-left: 20px;
+          
+      }
+      .row .did img{
+            width: 365px;
+            height: 200px;
+            
+      }
+      .trush img{
+            margin-left: 00px;
+      }
+      #set #place{
+            width: 21%;
+      }
+      input[type="date"]{
+            width: 20%;
+      }
+      .then{
+            width: 20%;
+            margin-top: -50px;
+      }
+      .ser{
+            width: 20%;
+            height:40px ;
+      }
+      #im img{
+             width:20%;
+      }
+      .do p{
+            font-size: 20px;
+            height: 90px;
+            margin-right: 70px;
+      }
+      .do h5{
+            text-align: left;
+      }
+      .lp p{
+            margin-right: 100px;
+      }
+      ul li a{
+            text-align: center;
+          color: white;
+          list-style-type: none;
+          font-size: 20px
+      }
+    ul li a:hover{
+        color: white;
+        text-decoration: none;
+    }
+      
+      .other{
+      display: block;
+      }
+}
+@media screen and (max-width:990px) {
+      .did .row{
+            margin-left:30px;
+      }
+      .other{
+            display: block;
+      }
+      .other img{
+            width: 100px;
+            height:200px;
+            padding: 20px;
+           
+      }
+      .other p{
+            margin-left: 50px;
+            width: 20%;
+      }
+      .did{
+            display: block;
+      }
+
+ul li a{
+      color: white;
+      list-style-type: none;
+}
+ul li a:hover{
+      color: white;
+      text-decoration: white;
+}
+.row i{
+      font-size: 20px;
+}
+.row .do img{
+      width: 270px;
+      height: 200px;
+}
+.row .do{
+      border-radius: 50px;
+      border: none;
+      margin-left:40px;
+}
+.row .lp{
+border: none;
+border-radius: 20px;
+margin-left: 60px;
+}
+.row .lp img{
+      width: 300px;
+      height: 200px;
+}
+.row a{
+      font-size: 20px;
+      text-decoration: none;
+}
+a:hover{
+      text-decoration: underline;
+}
+    #hel{
+      float: right;
+      margin-top: -80px;
+      margin-right:-10px;
+}
+#hote{
+      border: 2px solid rgb(30, 142, 207);
+      background: rgb(30, 142, 207);;
+      color: white;
+      padding:10px;
+      font-size: 15px;
+      border-radius: 5px;
+}
+#hel{
+      float: right;
+      margin-top: -80px;
+      margin-right:30px;
+}
+#hel a{
+      color: blue;
+      font-size: 15px;
+}
+#uk{
+      border-radius: 5px;
+      border: 2px solid rgb(109, 106, 106);
+      background: white;
+      color:black;
+      font-size: 15px;
+}
+#uk:hover{
+      border: 2px solid blue;
+}
+.most{
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+#log{
+      border: 2px solid black;
+      border-radius: 5px;
+      color: blue;
+      background:transparent;
+      font-size: 20px;
+      transition: all 200ms ease-in 0s;
+      padding-left: 0px;
+
+}
+#log:hover{
+      border: 2px solid blue;
+}
+#set{
+      background:#02122C ;
+      margin: 30px 0px 0px -10px;
+      color: white;
+      padding: 20px;
+}
+#place{
+      width: 100%;
+    padding: 20px;
+      height: 50px;
+      font-size: 20px;
+      color: black;
+}
+label{
+      font-size: 20px;
+}  
+input[type="date"]{
+       font-size: 20px;
+       height: 50px;
+       margin-left: -6px;
+       color: black;
+}
+.then{
+      height: 50px;
+      color: black;
+      font-size: 20px;
+      width: 200px;
+}
+.the{
+      width: 200px;
+      height: 50px;
+      color: black;
+      font-size: 20px;
+}
+#retu{
+      font-size: 20px;
+      font-family: cursive;
+      margin-left: 20px;
+}
+.ser{
+      font-size: 20px;
+      width: 25%;
+      float: right;
+      margin-top:-5px;
+      color: white;
+      border: 2px solid #00887D;
+      border-radius: 5px;
+      background:#00887D ;
+}
+#flig{
+      border: 2px solid rgb(30, 142, 207);
+      background: rgb(30, 142, 207);
+      color: white;
+      padding:8px;
+      font-size: 14px;
+      border-radius: 5px;
+      margin-top:-30px;
+      width: 10%;
+}
+ #hire{
+      border: 2px solid rgb(30, 142, 207);
+      background: rgb(30, 142, 207);
+      color: white;
+      padding:10px;
+      font-size: 15px;
+      border-radius:5px;
+}
+.one{
+   border: 2px solid grey;
+   padding: 10px;
+}
+.one img{
+   width: 100%;
+}
+.two{
+   border: 2px solid grey;
+   padding: 10px;
+}
+.two img{
+   width: 100%;
+}
+.three{
+   border: 2px solid grey;
+   padding: 10px;
+}
+.three img{
+   width: 100%;
+}
+.fore{
+   border: 2px solid grey;
+   padding: 10px;
+}
+.fore img{
+   width: 100%;
+}
+.five{
+   border: 2px solid grey;
+   padding: 10px;
+}
+.five img{
+   width: 100%;
+}
+.six{
+   border: 2px solid grey;
+   padding: 10px;
+}
+.six img{
+   width: 100%;
+}
+.most img{
+   width: 100%;
+   margin-top: 50px;
+}
+.did img{
+   width: 100%
+}
+.did p{
+   width: 100%;
+   background: #02122C;
+   color: white;
+}
+
+}
+ */

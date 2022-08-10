@@ -1,0 +1,325 @@
+body{
+      top: 0px;
+      
+}
+img#logo{
+      position:absolute;
+      width: 150px;
+      height: 10%;
+      margin-top:-10px;
+}
+.seun{
+      display: none;
+      padding: 100px 10px 30px 10px;
+}
+#mode {
+      color: white;
+      width: 100px;
+      height: 30px;
+      margin-left: 85%;
+      display: none;
+}
+#home a{
+      font-size: 15px;
+      color: white;
+      text-align:left;
+      cursor: pointer;
+}
+#home{
+      padding-top: -100px;
+      color: white;
+      margin-top: -20px;
+      width:500px;
+      font-size: 15px;
+     
+}
+.mal{
+ transition: background 500ms ease-in-out;
+     border: 2px solid orange;
+    padding: 10px; 
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+h1{
+font-size: 70px;
+}
+.mal:hover{
+    background: orange;
+}
+
+.male{
+    border: 2px solid orange;
+    padding:10px;
+    border-radius: 20px;
+    background: orange;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width:990px){
+      #mode {
+            display: block;
+      }
+      .seun{
+            display: block;
+      }
+      .most{
+            font-size: 20px;
+      }
+}
+@media screen and (min-width:900px){
+      .mea{
+            float: right;
+      }
+}
+.pao li{
+      text-decoration: none;
+      color: white;
+      display: inline;
+      margin-left: 20px;
+}
+.pao a{
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      margin-left: 50px;
+}
+button#loginbutton{
+     border: none;
+     width: 60px;
+     height: 25px;
+     float: right;
+     margin-top: -5%;
+
+}
+.quotebutton {
+      margin: 50px 100px 0px 0px;
+      color: white;
+      background: transparent;
+      padding: 10px 30px;
+      border: 2px solid orange;
+      transition: background 500ms ease-in-out;
+      border-radius: 25px;
+}
+.quotebutton:hover {
+      background: orange;
+}
+#way{
+      overflow: auto;
+      width: 300px;
+      height: 300px;
+      border: none;
+}
+#way a{
+      text-decoration: none;
+      color: orange;
+      font-size: 20px;
+}
+
+a{
+      text-decoration: none;
+}
+a:hover{
+      color:black;
+      text-decoration: none;
+
+}
+ul.bv {
+      margin-left: 10%;
+}
+.bv a:hover{
+      color:white;
+}
+.bv li{
+      transition:padding 200ms ease-out 0s;
+      font-size: 1.5vw;
+      padding: 0px 0px 15px 0px;
+}
+.bv li:hover{
+      border-bottom: 2px solid orange;
+      padding-bottom: 10px;
+}
+#us {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      transition: padding 200ms ease-in-out 0s;
+}
+#us:hover{
+      border-bottom: 2px solid orange;
+    
+}
+.sys{
+      overflow: auto;
+      width: 300px;
+      height: 300px;
+      padding: 50px;
+      transition: padding 200ms ease-out 0s;
+      cursor: pointer;
+      padding: 0px 0px 50px 0px;
+}
+.sys:hover{
+      border-bottom: 2px solid red;
+      border:none;
+      padding-top: 30px;
+      transition: 0s all 200ms ease-out 2s;
+}
+#staa{
+      border: 2px solid orange;
+      border-radius: 20px;
+      padding: 10px;
+      margin-right:20px;
+}
+.batch{
+      border-radius: 30px;
+      border: 2px solid white;
+      margin-left: 85%;
+      margin-top: -5%;
+      font-size: 15px;
+      width: 150px;
+      padding: 10px;
+      background: #F2B636;
+      color: white;
+}
+
+.batch:hover{
+      color: #F2B636;
+      background:white;
+      transition: background 200ms ease-out;
+}
+.header{
+      position: absolute;
+      top: 0px;
+      z-index: 1000;
+
+}
+
+@media screen and (max-width:990px){
+      .valu{
+            visibility: hidden;
+      }
+      #mode i {
+            display: block;
+            color: aqua;
+      }
+      .batch {
+            margin-left: 70%;
+      }
+}
+#mode i {
+      display: none;
+}
+p {
+      color: black;
+}
+.dabo-about p {
+      color: white;
+      font-size: small;
+      margin: 20px 0px 0px 0px;
+}
+.dabo-about {
+      padding: 10px 0px;
+
+}
+dl dd {
+      font-weight: 300;
+      color: grey;
+}
+dl dt {
+      color: orange;
+      font-size: 20px;
+      margin: 0px 0px 10px 0px;
+}
+#face i{
+      color: grey;
+}
+.col-4 img{
+      margin-top: 100px;
+  }
+  .col-lg-4 img{
+      margin-left: 50px;
+  }
+  .col-lg-3 img{
+      margin-left: 50px;
+      width: 50%;
+  }
+  .quoi{
+      display: block;
+      margin: 0px auto;
+      color: white;
+      background: transparent;
+      padding: 10px 30px;
+      border: 2px solid orange;
+      transition: background 500ms ease-in-out;
+      border-radius: 25px;
+   }
+   .quoi:hover{
+       background: orange;
+   }
+   .container{
+      position: absolute;
+      z-index: 100;
+      margin-left: 50px;
+  }
+  .col-lg-3 img{
+      margin-top: 70px;
+      height: 25px;
+  }
+  .col-lg-7{
+      margin-top: 100px;
+  }
+  .col-lg-7 li a{
+      margin-top: 55px;
+      color: white;
+      transition:padding 200ms ease-out 0s;
+      
+  }
+  #ma{
+      margin-left: 50px;
+      margin-top: -50px;
+  }
+  .col-lg-7 li a:hover{
+      border-bottom: 2px solid orange;
+      padding-bottom: -20px;
+      text-decoration: none;
+      color: white;
+  }
+  #that{
+      margin-left: 30px;
+      border: none;
+      background: transparent;
+      color: white;
+      font-size: 20px;
+      margin-top: 70px;
+      
+  }
+  .cry{
+        display: none;
+        height: 50px;
+  }
+  @media screen and (max-width:768px){
+      .col-lg-7 li a{
+          display: none;
+      }
+      .cry{
+            font-size:15px;
+            color: white;
+            margin-top:-20px;
+            padding: 10px;
+            display: block;
+            float: right;
+      }
+      .col-lg-3 img{
+            width: 20%;
+      }
+      #that{
+            margin-left:290px;
+            border: none;
+            background: transparent;
+            color: white;
+            font-size: 20px;
+            margin-top: -50px;
+      }
+  }
+  

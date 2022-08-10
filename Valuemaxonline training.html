@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Training :: Valuemax communication</title>
+        <link rel="stylesheet" href="Training.css"> 
+        <meta charset="project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="valuemax.css"> 
+        <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <a href="https://fontawesome.com/icons?d=gallery"></a>  
+        <a href="ttps://getbootstrap.com/docs/3.3/components/" ></a>
+        <a href="https://material.io/tools/icons/?icon=accessibility_new&style=baseline"></a> 
+        <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="image/log.png">
+                </div>
+                <div class="col-7">
+                    <ul class="nav ">
+                        <li class="nav-item"><a class="nav-link" href="janua.html" target="tab">Code Training<i class="fa fa-angle-down"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="Swift%20talk.net.html" target="tab">SwiftTalk<i class="fa fa-angle-down"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="Pmiwordwide.com.html" target="tab">Pmiwordwide<i class="fa fa-angle-down"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="codecademy business.html">Code Business<i class="fa fa-angle-down"></i></a></li>
+                        <li class="nav-item" id="ma"><a class="nav-link" href="VALUEMAX.COM.html">Valuemax<i class="fa fa-angle-down"></i></a></li><br>
+                        <li  class="nav-item" id="ma"><a class="nav-link" href="mysimplified.html" style="margin-left:20px">Simplified<i class="fa fa-angle-down"></i></a></li>
+                         <li class="nav-item" id="ma"><a class="nav-link" href="shyscanner.net.html" >Shyscanner<i class="fa fa-angle-down"></i></a></li>
+                     </ul>
+                </div>
+                <div class="col-2">
+                   <img  src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6L y93d3%0A%09%09%09%09%09%09cudzMub3JnLzIwMDAvc3ZnIiBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV 3IDAgMCA1NTEuMTMgNTUxLjEzIiBo%0A%09%09%09%09%09%09ZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNTUxL
+                   jEzIDU1MS4xMyIgd2lkdGg9IjUxMnB4Ij48cGF0aCBkPSJtNDk5LjQ2MiAw%0A%09%09%09%09%09%09aC0zNzguOTAy
+                   Yy05LjUyIDAtMTcuMjIzIDcuNzAzLTE3LjIyMyAxNy4yMjN2NTEuNjY4aDM0LjQ0NnYtMzQuNDQ1aDM0NC40NTZ2NDg%
+                   0A%09%09%09%09%09%09yLjIzOWgtMzQ0LjQ1NnYtMzQuNDQ2aC0zNC40NDZ2NTEuNjY4YzAgOS41MiA3LjcwMyAxNy4
+                   yMjMgMTcuMjIzIDE3LjIyM2gzNzguOTAyY%0A%09%09%09%09%09%09zkuNTIgMCAxNy4yMjMtNy43MDMgMTcuMjIzLT
+                   E3LjIyM3YtNTE2LjY4NGMwLTkuNTItNy43MDQtMTcuMjIzLTE3LjIyMy0xNy4yMjN6Ii%0A%09%09%09%09%09%09Bm
+                   aWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTIwNC41ODggMzY2LjcyNSAyNC4zNTQgMjQuMzU0IDExNS41MTQtMTE1L
+                   jUxNC0xMTUuNTE0LTE%0A%09%09%09%09%09%09xNS41MTQtMjQuMzU0IDI0LjM1NCA3My45MzcgNzMuOTM3aC0yND
+                   QuMDc5djM0LjQ0NmgyNDQuMDh6IiBmaWxsPSIjMDAwMDAwIi8+PC9zdmc+Cg==">
+                   <button id="that">Login</button>
+                </div>
+            </div>
+            <div class="sad" style="color: white;">
+                <i class="fa fa-bars fa-2x" data-target="#dabo" data-toggle="modal"></i>
+            </div>
+        </div>
+        <div id="dabo" class="modal right">
+            <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header" style="background: #2E3653;">
+                              <a href="January.html"><img src="image/log.png" width="200px" height="20px"/></a>
+                              <button type="button" class="close" data-dismiss="modal" style="color:white;width: 30%;height: 10%;">&times;</button>
+                        </div>
+                        <div class="modal-body bg" id="home" style="background: #2E3653;">
+                              <a href="janua.html" target="tab" class="nav-link" style="border-top: 0,5px solid white;
+                              padding-bottom: 20px; ">January</a><hr>
+                              <a href="Swift talk.net.html" target="tab" class="nav-link" style="border-bottom: 0,5px solid white;
+                              padding-bottom: 20px; ">SwiftTalk</a><hr>
+                              <a href="codecademy business.html" target="tab" class="nav-link" style="border-bottom: 0,5px solid white;
+                              padding-bottom: 20px; ">Code Business</a><hr>
+                              <a href="Pmiwordwide.com.html" class="nav-link" style="border-bottom: 0,5px solid white;
+                              padding-bottom: 20px; ">Pmiwordwide</a><hr>
+                              <a href="shyscanner.net.html" class="nav-link" style="border-bottom: 0,5px solid white;
+                              padding-bottom: 20px; ">Shyscanner</a><hr>
+                              <a href="mysimplified.html" class="nav-link" style="border-bottom: 0,5px solid white;
+                              padding-bottom: 20px; ">Simplified</a><hr>
+                              <a href="VALUEMAX.COM.html" class="nav-link" style="border-bottom: 0,5px solid white;
+                              padding-bottom: 20px; ">Valuemax oneline</a><hr>
+                        </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-7" style="margin-left: 0px;">
+                    <h1 style="font-size:30px;color: white;font-family: cursive;margin-top: 50px;">Our Training Approach</h1>
+                    <p class="is">Valuemax is neck-deep in training and human
+                        resources development. We take all our trainings 
+                        and courses very seriously because it serves as one
+                        major channel through which we recruit members of our 
+                        team as well as recruit IT staff for other Companies
+                        Organizations
+                        <br>
+                            we partner with. Thus, all our trainings are 
+                            completely  practical
+                            and project-based. Hence we 
+                            encourage you  to have a personalcomputer
+                            of your own to practice with and be 
+                            ready for lot of realtime live project.
+                            At Valuemax, we have diverse array of niche software  
+                            programmers and artists coming from different programming 
+                            language background with many years of experience of active app development and designs.
+                            So whether you are a green horn in computer world or an 
+                            average user, you can be sure we have a place for you.
+                            <br><br>
+                            Industrial Training BootCampAt the end of every training,
+                            we enroll our graduating student in one<br>
+                            month voluntary IT bootcamp where you handle<br> 
+                            a complete project for one of our clients <br>
+                            (under supervision) for which you get paid.
+                            <br>
+                            Industrial Training BootCamp
+                            At the end of every training, we enroll our graduating student
+                            in one month voluntary IT bootcamp
+                            where you handle a complete project for
+                            one of our clients (under supervision)
+                            for which you get paid.</p>
+                            <span style="color: white;font-size:16px;">Why do we do this ?</span>>
+                            <ol style="font-size:19px;color: white;margin-left: 20px;">
+                                <li style="font-size: 15px;">To be cock sure that you can actually handle
+                                     a project from start to finish on your own.</li><br>
+                                    <li style="font-size: 15px;">To teach you the best practice on how to get
+                                    <br>and treat clients while on tech project.</li><br>
+                                    <li style="font-size: 15px;">To start building your own portfolio with 
+                                        which you can leverage your marketing efforts
+                                        as you transit from being a trainee to being<br> 
+                                        a practitioner.
+                                    </li>
+                            </ol> 
+                    <div class="ly">
+                        <button class="app">APPLY</button>
+                    </div><br><br>
+                </div>
+                <div class="col-4 ">
+                    <img src="image/11.png" class="own" >
+                    <div class="money">
+                        <p >Starting Soon....</p>
+                        <span>FRONT-END PROGRAMMING 2020-BATCH-D</span><span style="background: orange;color: whi;">Ongoing...</span><br>
+                        <span>PROFESSIONAL GRAPHIC DESIGN 2020-BATCH-C:</span><span style="background: orange;color: whi;">Ongoing...</span><br/>
+                        <span>ARTIFICIAL INTELLIGENCE 2020-BATCH-A:</span><span style="background: orange;color: whi;">Ongoing...</span><br>
+                        <span>SERVER SIDE PROGRAMMING 2020-BATCH A: </span><span style="background: orange;color: whi;">Batch Has Started...</span><br>
+                        <span>MOBILE APP PROGRAMMING 2020-BATCH-A:</span><span style="background: orange;color: whi;"> Batch Has Started...</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="container-fluid" style="background: white; ">
+            <p class="pack">Our Training Packages</p>
+            <div class="row" >
+                <div class="col-md-6">
+                    <table class="tan">
+                        <tr>
+                            <th colspan="5" style=" color: rgb(236, 221, 221);
+                            background: rgb(18, 42, 68);">Software Programming Training</th>
+                        </tr>
+                        <tr>
+                            <td class="you">COURSES</td>
+                            <td class="you">TECHNOLOGY</td>
+                        </tr>
+                        <tr>
+                            <td class="you">FRONT-END<br> PROGRAMMING</td>	
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td class="you">HTML<br>
+                                CSS<br>
+                                JAVASCRIPT<br>
+                                JS LIBRARY<br>
+                                BOOTSTRAP<br>
+                                DOMAIN & REMOTE<br>
+                                SERVER MANAGEMENT,<br>
+                                WEB DESIGN & UI/UX<br></td>
+                        </tr>
+                        <tr>
+                        <td class="you">SERVER-SIDE<br> PROGRAMMING</td>
+                            <br>
+                            <td class="you">MYSQL  MONGODB<br>
+                                PHP <br> ASP.NET <br> NODE.JS <br> PYTHON & <br> DJANGO
+                                JSON<br>
+                                AJAX<br>
+                                JQUERY<br>
+                                API INTEGRATION</td>
+                        </tr>
+                        <tr>
+                            <td class="you">DATA SCIENCE PROGRAMMING <br> MACHINE LEARNING</td>
+                            <td class="you">Python Programming<br> and Framework for<br> Data Analysis
+                            Python <br> Programming for <br>Arificial Intelligence</td>
+                        </tr>
+                        <tr>
+                            <td class="you">MOBILE APP<br> PROGRAMMING</td>
+                            <td class="you">Core JS and its framework<br>
+                                JS based mobile App<br> Framework<br>
+                                React Native</td>
+                        </tr>
+                        <tr>
+                            <td class="you"> DESKTOP APPLICATION<br> PROGRAMMING</td>
+                            <td class="you">JAVA | PYTHON | C#</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6 ">
+                    <table class="fat">
+                        <th colspan="5" style="padding: 0px; color:rgb(245, 234, 234);
+                            background: rgb(231, 155, 13);">Non-Programming Technology</th>
+                        <tr class="cour">
+                            <td class="you"> COURSES</td>
+                            <td class="you">TECHNOLOGY</td>
+                        </tr>
+                        <tr>
+                            <td class="you">CMS-BASED WEB DESIGN TRAINING</td>	
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td class="you">DOMAIN &<br> REMOTE SERVER<br> MANAGEMENT<br>
+                                WORDPRESS <br> JOOMLA <br> DRUPAL <br> MAGENTO<br>
+                                PLUGIN <br> BUILDING<br>
+                            <br> E-COMMERCE SYSTEM</td>
+                        </tr>
+                        <tr>
+                            <td class="you">DIGITAL MARKETING TRAINING</td>	
+                            <td class="you">SEO
+                                <br>CLASSIFIED<br> AD
+                                <br>SOCIAL MEDIA<br> AD
+                                <br>GOOGLE ADWORD<br> AND ADSENSE</td>
+                        </tr>
+                        <tr>
+                            <td class="you">PROFESSIONAL<br> GRAPHIC DESIGN</td>
+                            <td class="you">CORELDRAW <br> ILLUSTRATOR
+                                PHOTOSHOP <br> FIREWORKS</td>
+                        </tr>
+                        <tr>
+                            <td class="you">FOUNDATION<br> COMPUTER <br>FOR BEGINNER</td>
+                            <td class="you">HARDWARE<br> AND OS MS<br> SUITES & <br>ONLINE EXPOSURE<br>
+                            </td>
+                        </tr>
+                    </table>          
+                </div>
+            </div>
+       </div><br><br><br>
+       <div class="row">
+           <div class="col-lg-2">
+
+           </div>
+           <div class="col-lg-8">
+            <h1 style="text-align: center;margin-top: 20px;color: white;">Training Details and Schedules</h1>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link " id="coding" style="color: orange;font-size: 20px;" data-bs-toggle="tab" data-bs-target="#pro"  role="tab" >Coding</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ncoding" style="color: orange;font-size: 20px;" data-bs-toggle="tab" data-bs-target="#nopro"  role="tab" >non-coding</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="pro" role="tabpanel" aria-labelledby="coding">
+                    <h5 style="text-align: left;font-size: 35px;">Front End Development</h5>
+                    <p style="text-align: left;color: white;">
+                        Front-end web development, also known as client-side
+                        development is the practice of producing user interface
+                        and user experience for a website or Web Application
+                        so that a user can see and interact with them directly.
+                        To be able to do this, the following courses/programming
+                        languages will be taught: HTML, CSS, DOM, JavaScript
+                        (plus one js library), bootstrap and domain/hosting
+                        management.
+                    </p>
+                    <table id="this">
+                        <tr>
+                            <td>Duration</td>
+                            <br>
+                            <td>3 Months</td>
+                        </tr>
+                        <tr>
+                        <td> Day</td>
+                            <td>Mon-Fri</td>
+                        </tr>
+                        <tr>
+                            <td>Time Frame&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                 10.am - 1.00pm <br>(morning Session)
+                                2.00pm - 5pm <br>(Evening session)</td>
+                        </tr>
+                        <tr>
+                            <td>Installments</td>
+                            <td>Yes / Monthly</td>
+                        </tr>
+                        <tr>
+                            <td>Course Fee</td>
+                            <td>₦60, 000</td>
+                        </tr>
+                        <tr>
+                            <td>Starting</td>
+                            <td>April 13, 2020</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div class="five">
+                        <button >Requestof for online </button>
+                        <button >Apply now</button><br>
+                    </div>
+                    <h5 style="font-size: 30px;color: orange;text-align: left;">Data Science with       Python center</h5>
+                        <p style="color: white;text-align: left;">
+                        Data science is an inter-disciplinary
+                        ﬁeld that uses scientiﬁc methods, processes, algorithms
+                        and systems to extract knowledge and insights from many
+                        structural and unstructured data. Data science is related
+                        to data mining, deep learning and big data.
+                        
+                         Data science is a "concept to unify statistics,
+                        data analysis, machine learning, domain knowledge
+                        and their related methods" in order to "understand
+                        and analyze actual phenomena" with data. It uses techniques
+                        and theories drawn from many ﬁelds within the context of
+                        mathematics, statistics, computer science, domain knowledge
+                        and information science.</p>
+                  <table id="this" >                     
+                        <tr>
+                            <td>Duration &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>3 Months</td>
+                        </tr>
+                            <tr>
+                                <td>Days &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>	Mon-Fri</td>
+                            </tr>
+                            <tr>    
+                                <td>Time Frame </td><br>
+                                <br>
+                                <td>10.am - 1.00pm <br>(morning Session) or
+                                    2.00pm <br>-5pm (Evening session)</td>
+                            </tr>
+                            <tr>
+                                <td>Installments</td>
+                                <td>Yes / Monthly</td>
+                            </tr>
+                            <tr>
+                                <td>Course Fee</td>
+                                <td>₦70, 000</td>
+                            </tr>
+                                <td>Starting	</td>
+                                <td>........</td>
+                        </table><br><br>
+                        <div class="five">
+                            <button  >Requestoffor online </button>
+                            <button >Apply now</button>
+                        </div>
+                        <h5 style="color: orange;font-size: 30px;text-align: left;">Machince Learning & Artificial
+                        Intelligence with Python</h5>
+                        <p  style="color:white;text-align: left;">Machine learning is sub-area of artificial intelligence,
+                            whereby the term refers to the ability of IT systems to
+                            independently find solutions to problems by recognizing patterns
+                            in databases. Machine Learning enables IT systems to recognize
+                            patterns on the basis of existing algorithms and data set and
+                            to develop adequate solution concepts.</p>
+                       <table id="this" >
+                            <tr>
+                                <td>Duration &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>5 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Days &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>	Mon-Fri</td>
+                            </tr>
+                            <tr>    
+                                 <td>Time Frame </td><br>
+                                 <br>
+                                 <td>10.am - 1.00pm <br>(morning Session) or<br>
+                                    2.00pm - 5pm <br>(Evening session)</td>
+                            </tr>
+                            <tr>
+                                 <td>Installments</td>
+                                 <td>Yes / Monthly</td>
+                            </tr>
+                            <tr>
+                                <td>Course Fee</td>
+                                <td>₦150, 000</td>
+                            </tr>
+                                <td>Starting	</td>
+                                <td>........</td>
+                        </table><br><br>
+                            <div class="five" >
+                                <button >Requestof for online </button>
+                                <button >Apply now</button>
+                            </div><br>
+                            <h5 style="font-size: 30px;color: orange;text-align: left;">Mobile App Programming</h5>
+                            <p  style="color: white;text-align: left;">Mobile development refers to creating applications
+                                and any other kind of software development specific
+                                to mobile devices, including tablets and smart phones
+                                With billions of smartphones being used by people, 
+                                the mobile app development industry currently enjoy
+                                a boom; hence the huge demand for mobile app developers.
+                                At valuemax, we teach any of react native, java or ionic
+                                as our mobile app development programming language.</p>
+                            <table id="this" >
+                                <tr>
+                                    <td>Duration &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    <td>5 Months</td>
+                                </tr>
+                                <tr>
+                                    <td>Days &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    <td>	Mon-Fri</td>
+                                </tr>
+                                <tr>    
+                                    <td>Time Frame </td><br>
+                                    <td>10.am - 1.00pm <br>(morning Session)<br>
+                                        or 2.00pm - 5pm <br>(Evening session)</td>
+                                </tr>
+                                <tr>
+                                    <td>Installments</td>
+                                    <td>Yes / Monthly</td>
+                                    </tr>
+                                <tr>
+                                    <td>Course Fee</td>
+                                    <td>₦150, 000</td>
+                                </tr>
+                                    <td>Starting</td>
+                                    <td>July 15, 2020</td>
+                                </tr>
+                        </table><br> <br> <br>
+                        <div class="five">
+                            <button >Requestoffor online </button>
+                            <button >Apply now</button>
+                        </div><br>
+                            <h5 style="text-align: left;color: orange;font-size: 30px;">Desktop Application Programming </h5>
+                        <p style="color:white;text-align: left;">An application that runs stand-alone in a desktop
+                            or laptop computer. Contrast with "Web-based application,
+                            "which requires the Web browser to run. The term may be 
+                            used to contrast desktop applications with mobile applications
+                            that run in smartphones and tablets.</p>
+                       <table id="this" >
+                            <tr>
+                                <td>Duration &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>5 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Days &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>	Mon-Fri</td>
+                            </tr>
+                            <tr>    
+                                <td>Time Frame </td><br>
+                                <br>
+                                <td>10.am - 1.00pm <br>(morning Session) or
+                                2.00pm - 5pm <br>(Evening session)</td>
+                            </tr>
+                            <tr>
+                                <td>Installments</td>
+                                <td>Yes / Monthly</td>
+                            </tr>
+                            <tr>
+                                <td>Course Fee</td>
+                                <td>₦150, 000</td>
+                            </tr>
+                            <tr>
+                                <td>Starting</td>
+                                <td>.......</td>
+                            </tr>
+                        </table><br><br>
+                        <div class="five">
+                            <button >Requestof for online </button>
+                            <button >Apply now</button><br>
+                        </div><br>
+                </div>
+                <div class="tab-pane fade" id="nopro" role="tabpanel"><br>
+                    <h5 style="text-align: left;font-size: 30px;">CMS-based Web Design Training</h5>
+                    <p style="text-align: left;color: white;">
+                        A content management system (CMS) is a software application or set of 
+                        related programs that are used to create and manage digital content. 
+                        It is used to design a website and manage same without prior knowledge 
+                        of anny programming language. At Valuemax, we train you on how to use 
+                        Wordpress | joomla | drupal or magento to create and manage a website 
+                        on a professional without going through the rigour of coding.
+                    </p>
+                    <table id="this" style="margin-left:150px">
+                        <tr>
+                            <td>Duration</td>
+                            <br>
+                            <td>2 Months</td>
+                        </tr>
+                        <tr>
+                        <td> Day</td>
+                            <td>Mon-Fri</td>
+                        </tr>
+                        <tr>
+                            <td>Time Frame&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                 10.am - 1.00pm <br>(morning Session)
+                                2.00pm - 5pm <br>(Evening session)</td>
+                        </tr>
+                        <tr>
+                            <td>Installments</td>
+                            <td>Yes / Monthly</td>
+                        </tr>
+                        <tr>
+                            <td>Course Fee</td>
+                            <td>₦40, 000</td>
+                        </tr>
+                        <tr>
+                            <td>Starting</td>
+                            <td>......</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div class="five">
+                        <button >Requestof for online </button>
+                        <button >Apply now</button><br>
+                    </div>
+                    <h5 style="font-size: 30px;color: orange;text-align: left;">Digital Marketing</h5>
+                        <p style="color: white;text-align: left;">
+                            Marketing has evolved over the years from print to digital. Get more familiar with how to market using SEO, content marketing, paid advertising or email marketing through digital technologies. Our Outline for this course covers: Social Media ad; Content Marketing; Google analytic; SEO; Google Adwords; Pay-per-click and Classified ad.</p>
+                    <table id="this" style="margin-left: 150px;">                     
+                        <tr>
+                            <td>Duration &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>2 Months</td>
+                        </tr>
+                            <tr>
+                                <td>Days &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>	Mon-Fri</td>
+                            </tr>
+                            <tr>    
+                                <td>Time Frame </td><br>
+                                <br>
+                                <td>10.am - 1.00pm <br>(morning Session) or
+                                    2.00pm <br>-5pm (Evening session)</td>
+                            </tr>
+                            <tr>
+                                <td>Installments</td>
+                                <td>Yes / Monthly</td>
+                            </tr>
+                            <tr>
+                                <td>Course Fee</td>
+                                <td>₦50, 000</td>
+                            </tr>
+                                <td>Starting	</td>
+                                <td>........</td>
+                        </table><br><br>
+                        <div class="five">
+                            <button  >Requestoffor online </button>
+                            <button >Apply now</button>
+                        </div>
+                        <h5 style="color: orange;font-size: 30px;text-align: left;">Graphic Design & Branding</h5>
+                        <p  style="color:white;text-align: left;">We offer a complete collection of Graphic Design Training. Our talented designers/Artists will take you by the hand and teach you how to use CorelDraw; Photoshop; Fireworks; indesign and Illustrator to create an appealing and gorgeous design.
+                        </p>
+                       <table id="this" style="margin-left: 150px;width: 60%;">
+                            <tr>
+                                <td>Duration &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>2-3 Months</td>
+                            </tr>
+                            <tr>
+                                <td>Days &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>Mon-Fri</td>
+                            </tr>
+                            <tr>    
+                                 <td>Time Frame </td><br>
+                                 <br>
+                                 <td>10.am - 1.00pm <br>(morning Session) or<br>
+                                    2.00pm - 5pm <br>(Evening session)</td>
+                            </tr>
+                            <tr>
+                                 <td>Installments</td>
+                                 <td>Yes / Monthly</td>
+                            </tr>
+                            <tr>
+                                <td>Course Fee</td>
+                                <td>₦30, 000</td>
+                            </tr>
+                                <td>Starting	</td>
+                                <td>July 10, 2022</td>
+                        </table><br><br>
+                            <div class="five" >
+                                <button >Requestof for online </button>
+                                <button >Apply now</button>
+                            </div><br>
+                            <h5 style="font-size: 30px;color: orange;text-align: left;">Basic Computer Training</h5>
+                            <p  style="color: white;text-align: left;">Everyone starts somewhere. This course is designed for those who just want to start off in computer usage. Our focus is on hardware and knowledge of operating system environment; MS suite, Online Exposure. The outline is drawn to reflect the basic computer knowledge required in modern work place, banks and different organizations..</p>
+                            <table id="this" style="margin-left: 140px; width: 60%;">
+                                <tr>
+                                    <td>Duration &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    <td>2 Months</td>
+                                </tr>
+                                <tr>
+                                    <td>Days &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    <td>	Mon-Fri</td>
+                                </tr>
+                                <tr>    
+                                    <td>Time Frame </td><br>
+                                    <td>10.am - 1.00pm <br>(morning Session)<br>
+                                        or 2.00pm - 5pm <br>(Evening session)</td>
+                                </tr>
+                                <tr>
+                                    <td>Installments</td>
+                                    <td>Yes / Monthly</td>
+                                    </tr>
+                                <tr>
+                                    <td>Course Fee</td>
+                                    <td>₦40, 000</td>
+                                </tr>
+                                    <td>Starting</td>
+                                    <td>July 15, 2020</td>
+                                </tr>
+                        </table><br> <br> <br>
+                        <div class="five">
+                            <button >Requestoffor online </button>
+                            <button >Apply now</button>
+                        </div><br>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+        </div>
+                <div class="row" style="background: white; color: black; font-size: 1.5vw;">
+                    <div class="col-md-6  col-sm-3 hold">
+                        <span style="font-size: 30px;font-family: cursive;"> Venue & contact info</span>
+                        <p style="color: orange; font-size:20px;">Our Classes hold @</p>
+                        <span>#30, Oyo Road, Opp U.I Post-Office<br>
+                        3rd Building after FCMB;
+                        U.I Ibadan</span>  
+                    </div>
+                    <div class="col-md-6 col-sm-3 hold" >
+                        <h3 style="font-size:20px; color: orange;">OR MESSAGE US</h3>
+                           <a href="" style="text-decoration: none;color:black;">admin@valuemaxonline.com; <br>+2349097221954</a>             
+                    </div>
+                </div>
+                <div class="container-fluid"  style="background:#182040;padding: 50px;">
+                    <h2 style="color:white; text-align: center;padding: 80px;">Samples of Projects built by our Old Students</h2>
+                    <div class="row">
+                          <div class="col-md-3">
+                                <div class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-invertal="2000">
+                                               <a href="#"><img src="image/messi.png" width="100%" height="80%"></a>
+                                               <div class="carousel-caption" id="overlay">
+                                                    <a href="#" class="text">Desing by Dabo</a>
+                                               </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                 <a href="#"><img src="image/fofana.png" width="100%" height="80%"></a>
+                                            </div>
+                                      </div>
+                                </div>
+                                <i class="carousel-control-prev" href="#sunday" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                              </i>
+                          </div>
+                          <div class="col-md-3">
+                                <div class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-invertal="2000">
+                                                <a href="#"><img src="image/thems.png" width="100%" height="80%"></a>
+                                            </div>
+                                            <div class="carousel-item">
+                                                  <a href="#"><img src="image/dess.png" width="100%" height="80%"></a>
+                                            </div>
+                                      </div>
+                                </div>
+                                
+                          </div>
+                          <div class="col-md-3">
+                                <div class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-invertal="2000">
+                                                <a href="#"><img src="image/messi.png" width="100%" height="80%"></a>
+                                            </div>
+                                            <div class="carousel-item">
+                                               <a href="#"><img src="image/dess.png" width="100%" height="80%"></a>
+                                            </div>
+                                      </div>
+                                </div>
+                               
+                          </div>
+                          <div class="col-md-3">
+                                <div class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-invertal="2000">
+                                               <a href="#"><img src="image/digital.png" width="100%" height="80%"></a>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <a href="#"><img src="image/com.png" width="100%" height="80%"></a>
+                                            </div>
+                                      </div>
+                                </div>
+                                
+                                <i class="carousel-control-next" href="#sunday" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon"></span>
+                                </i>
+                                <i class="carousel-control-next" href="#sunday" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon"></span>
+                                </i>
+                          </div>
+                    </div>
+              </div>
+                <div class="to" style="background-color: #F2B636; padding:10px;">
+                    <p class="now" style="font-family: 'Courier New',"> Ready to join Next Batch?</p>
+                    <button class="batch">Apply Now</button>
+                    <p style="color: red;font-size: 30px;">CAVEAT: This is a student project ,not an attempt to close the existing page  </p>
+                </div>
+            </div>
+            <div class="seun" style="background:#0E1220;">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5 style="color: white; font-size: 30px;">Value<span id="max" style="color: orange; font-size: 30px;">Max</span></h5>  
+                        <p style="color: white;"> We are a digital platform that 
+                        offers varying services, customers satisfaction
+                        is our drive without mincing our standard!
+                        </p>
+                    </div>
+                        <div class="col-md-3">
+                            <dl id="almos" style="color: white; font-weight: 200;">
+                                <dt> About Us</dt>
+                                    <dd>Hosting and Domain</dd>
+                                    <dd> Buy Data</dd>
+                                    <dd>Services</dd>
+                                    <dd>News</dd>
+                                    <dd>Contact Us</dd>
+                                </dl>
+                        </div>
+                        <div class="col-md-3">
+                            <dl style="color: white;">
+                                <dt>Training</dt>
+                                    <dd> Front End</dd>
+                                    <dd>Server-side</dd>
+                                    <dd>Graphics Design</dd>
+                                    <dd>Data Science</dd>
+                                    <dd>Basic Computer</dd>
+                                    <dd>Mobile App</dd>
+                                    <dd>CMS based Web Design</dd>
+                                    <dd>Digital Marketing</dd>
+                                    <dd>Desktop application</dd>
+                                </dl>
+                            </div>
+                    <div class="col-md-3">
+                        <span style="color: orange;font-size: 30px;"></span>
+                            <dl style="color:white;"> 
+                                <dt>office</dt>
+                                    <dd>30, Old Finbank Building;</dd>
+                                        dd> Opp UI Post Office, 3rd Building</dd>
+                                        <dd> after FCMB; UI Ojoo Road, Ibadan</dd>
+                                        <dd>admin@valuemaxoniline.com</dd>
+                                        <dd>+2349097221954</dd>
+                            </dl>
+                    </div>
+                    <div class="col-md-3" id="face">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-telegram"></i>
+                        <i class="fa fa-instagram"></i><br><br>
+                        <span style="color: white; text-align: center;">&copy;ValueMaxCodeLab 2007</span>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

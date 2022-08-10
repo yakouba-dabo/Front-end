@@ -1,0 +1,567 @@
+@media screen and (min-width:768px) {
+      body{
+            overflow-x: hidden
+            ;
+      }      
+      .nap{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+      .code{
+            background: white;
+            padding:10px;
+            position:fixed;
+            z-index: 100;
+            width: 101%;
+      }
+      .les{
+            margin-left: 30px;
+      }
+      #guid li{
+            color: black;
+            margin-left:50px;
+            margin-top: 20px;
+      }
+      #pos{
+            border:2px solid white;
+            background: white;
+            font-size: 10px;
+            margin-left: 60px;
+            height: 130px;
+            cursor: pointer;
+      }
+      #sa{
+            border: 3px solid white;
+            background:white;
+            height: 130px;
+            margin-left: 40px;
+            cursor: pointer;
+      }
+      #pl{
+            border: 2px solid white;
+            background: white;
+            margin-left: 20px;
+            margin-top: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            width:470px;
+            height: 130px;
+       
+      }
+      .nap a{
+            color: black;
+      
+      }
+      .nap a:hover{
+            color: black;
+      }
+      .the a{
+            color:black;
+      }
+      #pl a{
+            
+            text-decoration: none;
+            
+      }
+      #ss{
+            border: 2px solid white;
+            background:white;
+            height: 130px;
+            margin-left: 40px;
+            padding: 40px;
+            margin-top: 50px;
+            cursor: pointer;
+      }
+      #ss a{
+            color:blue;
+            text-decoration:none;
+            font-size: 20px;
+      }
+      #ss p{
+            font-size: 20px;
+            color: black;
+      }
+      #sa a{
+            color: blue;
+            text-decoration: none;
+            font-size: 20px;
+      }
+      #sa p{
+            font-size: 20px;
+            color: black;
+      }
+      #pos a{
+            color: blue;
+            text-decoration: none;
+            font-size: 20px;
+      }
+      #pos{
+            width: 90%;
+            height: 90%;
+            padding:10px;
+      }
+      #pos p{
+            font-size:25px;
+            color:black;
+      }
+      }
+      @media screen and (max-width:990px){
+            #pos{
+                  height:150px;
+                  width: 85%;
+            }
+            #sa{
+                  height:150px;
+                  width: 85%;
+                  margin-left: 60px;
+                  margin-top: 40px;
+            }
+            #pl{
+                  width: 365px;
+                  margin-top: 40px;
+            }
+            #ss{
+                  width:85%;
+                  margin-left: 50px;
+                  padding-top: -40px;
+            }
+            .dabo-sec{
+                  transform: translateY(50px);
+            }
+            #pos{
+                  background-color: white;
+                  color: black;
+                  margin-left: 30px;
+                  padding: 10px;
+                  
+              }
+              #sa{
+                  background-color: white;
+                  margin-left:30px;
+              }
+              #pl{
+                  background-color: white;
+                  padding: 30px;
+                  
+              }
+              #ss{
+                  padding: 30px;
+                  background-color: white;
+                  margin-left: 20px;
+                  height: 100px;
+              }
+      }
+      #mag{
+            width:200px;
+            height:70px;
+            position:absolute;
+            display: inline-block;
+      }
+      .learn{
+            margin-left: 30px;
+      }
+      #pro{
+            float: right;
+            margin-right: 120px;
+            color: blue;
+            border: none;
+            font-size: 25px;
+            margin-top: -40px;
+            background: white;
+            padding: 3px;
+            border: 2px solid none;
+      
+      }#pro:hover{
+            background: rgb(202, 200, 196);
+      }
+      #up{
+            float: right;
+            margin-right: 20px;
+            margin-top: -40px;
+            color: white;
+            background: blue;
+            font-size: 20px;
+            border-radius: 5px;
+            padding:3px;
+            border: 2px solid blue;
+      }
+      .the {
+            margin: 30px 0px 0px 150px;
+      }
+      
+      .code .the li{
+            color:black;
+            display: inline;
+            margin-left:30px;
+            font-size: 16px;
+      }
+      
+      .the li:hover{
+            color: blue;
+      }
+      #set{
+            font-size: 50px;
+            color: #FFF0E5;
+           
+      
+      }
+      #opa{
+            border: 2px solid orange;
+            color: black;
+            background: orange;
+            border-radius: 10px;
+            font-size: 35px;
+            box-shadow:-20px  9px 0px white;
+            transition: padding 200ms ease-in 0s;
+      
+      }
+      #pa{
+            border: none;
+            color: orange;
+            background: transparent;
+            margin-left: 20px;
+            font-size: 25px;
+          
+      }
+      #pa:hover{
+            border: 2px solid grey;
+            color: orange;
+            border-radius: 10px;
+            padding: 10px;
+            background: rgb(46, 45, 45);
+      
+      }
+      #opa:hover{
+            padding-bottom: 10px;
+           
+          
+      }
+      dl li{
+            font-size: 20px;
+            color: white;
+      }
+      #fd{
+            color: black;
+            font-size: 15px;
+            margin-left: 40px;
+      }
+      .mad{
+            display: none;
+            height: 50px;
+      }
+      @media screen and (max-width:990px){
+            .nap{
+                  display: none;
+            }
+            .mad{
+                  font-size:15px;
+                  color: black;
+                  margin-top:-25px;
+                  padding: 10px;
+                  display: block;
+                  float: right;
+                  margin-left: 100%;
+            }
+            .code img{
+                  transform: translateY(-30px);
+            }
+            #mag{
+                  width: 120px;
+                  height: 60px;
+            }
+            .code{
+            background:white;
+            padding: 40px;
+            height: 55px;
+            width: 100%;
+            position: fixed;
+            z-index: 100;
+            }
+            .code button{
+                  transform: translate(-35px, 25px);
+            }
+            
+            .did .row{
+                  padding-left: 3px;
+            }
+      }
+      @media screen and (max-width:990px) {
+            .did.do {
+                  transform: translateY(50px);
+            }
+            
+      }
+      .ind button{
+            border: 0px;
+            background: white;
+            color: blue;
+            float: right;
+            font-family: Elephant;
+      }
+      .ind button:hover{
+            background: rgb(236, 223, 223);
+      }
+      .ind {
+            font-size: 20px;
+            color: black;
+            padding: 50px;
+            border: 2px solid black;
+            box-shadow: -30px 30px 0px -10px #6A7181;
+            height: 400px;
+            width: 10px;
+      }
+      .did{
+            padding: 10px;
+            background: teal;
+      }
+      .groupone{
+            padding: 100px;
+      }
+      .grouptwo{
+            margin-top: -150px;
+      }
+      .did .do{
+            padding:10px;
+            color: black;
+            background: white;
+            transition: padding 200ms ease-in-out 0s;
+            height: 220px;
+      
+      }
+      div[class~=do] {
+            margin: 0px 100px 0px 0px;
+      }
+      @media screen and (max-width: 600px) {
+            div[class~=do] {
+                  margin: 0px 0px 50px 0px;
+            }
+            .col-md-4 ul li {
+                  margin: 0px 0px 0px 0px ;
+                  display: inline;
+            }
+      }
+      .groupone {
+            margin: 0px 0px 50px 0px;
+      }
+      .col-md-4 ul li {
+            list-style-type: none;
+            color: white;
+      }
+      .did .do:hover{
+            padding: 0px 20px;
+            background: white;
+      }   
+      .did h2{
+            margin-left: 30px;
+      }
+      .did p{
+            margin-left: 30px;
+      }
+      #reds{
+            padding: 100px;
+            margin-top: -200px ;
+      }
+      #reds .cv{
+            border: 2px solid white;
+            color: black;
+            background: white;
+            padding: 20px;
+            font-size: 20px;
+            transition: padding 300ms ease 0s;
+            height: 200px;
+      }
+      #week i{
+            list-style-type:lower-alpha;
+            color:black;
+      }
+      #acce{
+            border: 1px solid blue;
+            border-radius: 10px;
+            background: blue;
+            color: white;
+            padding: 12px ;
+      }
+      #acce:hover{
+            background: blue;
+            color: wheat;
+      }
+      .chal{
+            margin-bottom: 30px;
+            padding: 100px;
+      }
+      .chal p{
+            text-align:center;
+            margin-top: -30px;
+      
+      }
+      .nap a{
+      text-decoration: none;
+      }
+      .chal h6{
+            padding: 50px;
+      }
+      #jus{
+            margin-left: 300px;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            background: yellow;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            width:150px;
+      }
+      #able ul li{
+            color: black;
+           
+      }
+      #able{
+            margin-left: 50px;
+      
+      }
+      #le{
+            margin-left: 10px;
+       
+            color: red;
+      }
+      .po{
+            margin-left: -100px;
+      }
+      .lo{
+            margin-left: 50px;
+      }
+      .jk{
+            margin-left: 30px;
+      }
+      #le ul li:hover{
+            color: blue;
+            background: red;
+      }
+      @media screen  and (max-width:990px){
+            #le ul li{
+                  text-align: center;
+                  letter-spacing: 0cm;
+            }
+            #able ul li{
+                  text-align: center;
+                  padding: 20px;
+            }
+            #able{
+                  padding: 20px;
+                  ;
+            }
+            #able a image{
+                  width: 100%;
+            }
+           
+      }
+      .id{
+            border: none;
+            border-left:2px solid black ;
+      }
+      @media screen and (max-width:990px) {
+            button#jus{
+                  margin-left:-10px;
+                 
+      
+            }
+            #cov{
+                  text-align: center;
+                 
+            }
+            #cov{
+                  transform: translateX(-90px);
+            }
+      }
+      #le ul{
+            margin-left: 10px;
+            text-align: justify;
+      }
+      #now{
+            border: none;
+            width: 150px;
+            color: yellow;
+            background: transparent;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+      }
+      #now:hover{
+            background: #232940;
+      }
+      #acre{
+            border-radius: 10px;
+            border: none;
+            color: blue;
+            background: transparent;
+            margin-left: 20px;
+            padding: 10px;
+      }
+      #acre:hover{
+            background: wheat;
+      }
+      #bu{
+            width: 200px;
+            padding: 10px;
+            font-size: 18px;
+            float: right;
+            border: none;
+            background: transparent;
+            color: yellow;
+      }
+      #bu:hover{
+            background: #232940;
+            color: yellow;
+      }
+      #reds .lk{
+            border: 2px solid white;
+            color: black;
+            padding: 20px;
+            font-size: 20px;
+            transition: all 200ms ease 0s;
+            height: 200px;
+            margin-left: 50px;
+           
+      }
+      .row .lp{
+            border:2px solid white ;
+            color:black;
+            background:white;
+            height: 220px;
+            font-size: 18px ;
+            padding: 20px;
+            transition: padding 200ms ease 0s;
+      }
+      .row .do{
+            border:2px solid white ;
+            color:black;
+            background:white;
+            height: 220px;
+            font-size: 18px ;
+            padding: 20px;
+            transition: padding 200ms ease 0s;
+      }
+      .row .do:hover{
+            padding: 0px 20px 10px;
+      }
+      .row .lp:hover{
+            padding: 0px 20px ;
+      }
+      .rwo{
+            color: wheat;
+            border: 20px solid yellow;
+      }
+      .rwo:hover{
+            color: wheat;
+            padding:  0px 0px 20px 0px ;
+      }
+      #com li:hover{
+            color: blue;
+            cursor: pointer;
+      }
+      #cov{
+            font-size: 20px;
+            margin-left: 30px;
+      }
+      #cov:hover{
+            color: blue;
+            cursor: pointer;
+      }
+      

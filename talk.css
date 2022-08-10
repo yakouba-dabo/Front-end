@@ -1,0 +1,186 @@
+.lim img{
+     width: 23%;
+     height: 20%;
+     margin-left:-50px;
+}
+.dropdown{
+    margin-left:200px;
+    margin-top: -70px;
+    font-size:15px;
+    top: 0px;
+    padding: 20px;
+    display: block;
+}
+.same{
+    background: white;
+    width: 100%;
+}
+.dropdown button{
+     font-size: 20px;
+     border-radius:6px;
+     border: 1.5px solid red;
+     color: red;
+     padding: 5px 20px;
+     float: right;
+     background: white;
+     margin-right: -20px;
+}
+.dropdown button:hover{
+     color: white;
+     background-color: red;
+}
+.parent {
+     display: inline-block;
+     margin-left:10px;
+}
+.parent a{
+     text-decoration: none;
+     color: red;
+}
+.parent a:hover{
+     text-decoration: none;
+     color: red;
+}
+.close{
+     width: 20%;
+     height: 10%;
+     background: wh;
+}
+#home .us{
+     border: 2px solid red;   
+     color:red;
+     background: white;
+     border-radius: 5px;
+     width: 30%;
+     height: 40px;
+
+}
+#home .us:hover{
+     background: red;
+     color: white;
+}
+#home a{
+     color: black;
+     font-size: 20px;
+     margin: 0px auto;
+     padding: 0pc auto;
+}
+.ma{
+     display: none;
+     height: 50px;
+}
+@media screen  and (max-width:990px){
+     .ma{
+          font-size:10px;
+          color: #000000;
+          margin-top:-70px;
+          padding: 20px;
+          display: block;
+        
+     
+     }
+     .mar{
+          margin-top: 340px;
+         padding: 20px 0px 0px 0px ;
+     }
+     .lim img{
+          width: 30%;
+          margin-left: 170px;
+     }
+     .dropdown{
+          display: none;
+     }
+     .dropdown button{
+          display: block;
+     }
+    .para{
+        font-size: 0px;
+    }
+     
+}
+.parent:hover{
+     color: red;
+}
+.history {
+     position: absolute;
+     width: 300px;
+}
+.history li {
+     display: none;
+     padding: 0px 20px ;
+}
+.parent:hover .history li {
+     display: block;
+     background-color: rgb(252, 24, 35);
+     color: rgb(223, 223, 213);
+}
+.write{
+     margin-top: 50px;
+     font-size: 20px;
+     color: #828282;
+    margin-left: 20px
+}
+.radio{
+     margin-left: 20px;
+}
+    
+h5{
+     text-align: center;
+     font-size:50px;
+}
+.APN{
+     text-align: center;
+     font-size: 25px;
+}
+.row{
+     margin: 20px 10px 10px 10px ;
+     background-color:#EAEAEA;
+     font-size: 15px;
+     height: 400px;
+
+}
+.jo{
+     border:2px solid red;
+     border-radius: 30px;
+     width:90%;
+     font-size: 20px;
+     background-color: red;
+     color: white;
+}
+.footer{
+     color: white;
+     text-align: center;
+     font-size: 20px;
+}
+.para{
+     font-size: 19px;
+     margin-left: 25px;
+     color: rgb(165, 159, 159);
+}
+label{
+     margin-right: 20px;
+}
+input{
+     width: 90%;
+     outline: none;
+}
+#joi{
+     width: 90%;
+     border-radius: 20px;
+     background: red;
+     color: white;
+     font-size: 20px;
+     border: 1px solid white;
+     
+ }
+ @media screen and (max-width:768px){
+     #joi{
+         background: red;
+         width: 100%;
+        
+     }
+     input{
+         width: 100%;
+     }
+     
+ }

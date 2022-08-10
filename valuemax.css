@@ -1,0 +1,282 @@
+body{ 
+    background-image:url("image/tech.jpg")
+}
+h1{ 
+    color:white;
+}
+p{ 
+color:white;
+letter-spacing: 2px;
+text-align:start;
+font-size: 20px;
+}
+img{ 
+    width:200px;
+    height:80px;
+}
+.header{
+    width: 100%;
+    margin-top:10px;
+    background:transparent;
+}
+h2{ 
+color:white;
+word-spacing: 2px;
+font-size: large;
+margin:2px 10px 0px ;
+}
+h5{
+    color:orange;
+    font-size: 35px;
+}
+p{
+    color:white;
+}
+h4{
+    color:white;
+    font-size: 25px;
+    margin-left:-200px;
+    line-height: 10px;
+}
+.ro{
+    color:white;
+    text-align:center;
+    font-size:22px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    color: rgb(238, 228, 228);
+    margin-bottom: -10px;
+}
+tr{ 
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
+    color:rgb(241, 235, 235);
+    font-size: 20px;
+    height: 50px;
+}
+tr:hover{ 
+    background:rgb(240, 240, 224);
+    padding:10px; 
+    color:rgb(8, 7, 7);
+
+}
+.ton{
+    border: 2px solid orange;
+    border-radius: 20px;
+    width:12%;
+    margin-left:50px;
+    font-size: 20px;
+    background: orange;
+    color: white;
+
+}
+.mac{
+    margin-left:0px;
+    text-align: center;
+}
+.ton:hover{
+    border-radius:20px;
+    border:1px solid orange;
+    color: white;
+}
+.ly .app{
+    border: 2px solid orange;
+    background: rgb(12, 30, 46);
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 200px;
+    width:200px;
+}
+.ly .app:hover{
+    background: orange;
+    color: white;
+}
+/* button{ 
+    border: 1px solid #c1c8db;
+    font-size:29px;
+    margin:20px 30px 10px 0px;
+    padding-left:-5px;
+    width:200px;
+    text-align: center;
+}
+button:hover{ 
+    border:2px solid rgb(0, 0, 0);
+    color:rgb(2, 2, 2);
+
+} 
+.button{
+    background-color: rgb(226, 226, 5);
+    color:black;
+    font-size:15px;
+} */
+/* button.e{
+    transform: translate(900px,300px);
+}
+button.log{
+    font-size: 20px;
+    margin: 10px 0px 0px 1px;
+}  */
+.h1{ 
+    background: white;
+    color:black;
+    text-align: center;
+    margin-top:10px;
+    padding-bottom: 250;
+
+}
+.dl{
+    background:white;
+    color:black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -25px;
+}
+.dt{margin-left: 600px;
+    margin-top: -20px;
+}
+.dd{ margin-left: 600px;
+    margin-top: 10px;
+}
+.bv li{
+    display: flex;
+    margin-left:50px;
+    font-size: 15px;
+    text-align: center;
+}
+.bv li a{
+    color: white;
+    text-decoration: none;
+}
+.bv a:hover{
+    color: white;
+}
+.bv{
+    margin-left:250px;
+    margin-top: -40px;
+}
+#login{
+    float: right;
+    width:60px;
+    margin-top: -60px;
+    margin-right: 50px;
+    border-radius:10px;
+    font-size: 20px;
+}
+#login:hover{
+    color:black;
+    background: white;
+    border: none;
+}
+.h2{
+    text-align: center;
+    background-color:#1336b6;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -20px;
+}
+.h4{ background-color: yellow;
+    color:black;
+    text-align: center;
+    justify-content: center;
+    font-family:arial;
+    margin-top: -25px;
+}
+hr{ margin-top:-45px;
+
+}.tan{ 
+    color: black;
+    background: white;
+    background-color:white;
+    font-size: 10px;
+}
+td.td{ 
+    color:black;
+    background:white;
+    font-size: 3px;
+}
+td.you{
+    border:2px solid white;
+    background: white;
+    color:black;
+    font-size: 18px;
+    border:2px solid rgb(131, 125, 125);
+
+}
+.batch{
+ border-radius: 20px;
+ border: 2px solid white;
+ background: orange;
+ font-size: 20px;
+ margin-top: -40px;
+ float: right;
+ width: 20%;
+}
+.batch:hover{
+    background: white;
+    color: orange;
+}
+.pack{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.fat{
+    margin-top: 50px;
+    font-size: 20px;
+    width:450px;
+}
+.ma{
+    float: right;
+    display: none;
+    height: 50px;
+}
+.own{
+    width: 100%;
+    height: 250px;
+
+}
+@media screen and (max-width:990px) {
+    .dis li{
+        display: none;
+    }
+    #login{
+        width: 10%;
+        margin-top: 10px;
+        margin-right: 40px;
+        visibility: hidden;
+    }
+    .ma{
+        font-size:15px;
+        color: black;
+        margin-top:-40px;
+        padding: 10px;
+        margin-right: -65px;
+        display: block;
+        float: right;
+    }
+    .ton{
+        width:30%;
+        margin-left: 10px;
+    }
+   .mac{
+       margin-left: -30px;
+   }
+   .now{
+       margin-left:10px;
+   }
+   .batch{
+       width: 30%;
+       margin-left: 140px;
+   }
+   .hold{
+       font-size: 20px;
+   }
+
+}
